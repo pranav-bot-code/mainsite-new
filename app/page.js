@@ -14,18 +14,11 @@ export default function Home() {
             <TiWeatherCloudy className="text-yellow-400" />
             <p className="p-1">Weather</p>
           </a>
-          <a className="p-2 m-2 text-xl flex items-center hover:text-transparent bg-white bg-clip-text hover:bg-gradient-to-r focus:text-transparent focus:bg-gradient-to-r from-sky-400 from-10% to-violet-600 to-100%" href="https://s.pkk.in.eu.org">
+          <a className="p-2 m-2 text-xl flex items-center hover:text-transparent bg-white bg-clip-text hover:bg-gradient-to-r focus:text-transparent focus:bg-gradient-to-r from-sky-400 from-10% to-violet-600 to-100%" href="https://shorten.pkk.in.eu.org">
             <HiOutlineScissors className="text-sky-400" />
             <p className="p-1">URL Shortner</p>
           </a>
-          <a className="p-2 m-2 text-xl flex items-center hover:text-transparent bg-white bg-clip-text hover:bg-gradient-to-r focus:text-transparent focus:bg-gradient-to-r from-red-400 from-10% to-emerald-600 to-100%" href="https://yt.pkk.in.eu.org">
-            <MdOutlineFileDownload className="text-red-400" />
-            <p className="p-1">YT Downloader</p>
-          </a>
-          <a className="p-2 m-2 text-xl flex items-center hover:text-transparent bg-white bg-clip-text hover:bg-gradient-to-r focus:text-transparent focus:bg-gradient-to-r from-emerald-400 from-10% to-gray-200 to-100%" href="https://notify.pkk.in.eu.org">
-            <TiWeatherCloudy className="text-emerald-400" />
-            <p className="p-1">Notify</p>
-          </a>
+          
           <a className="p-2 m-2 text-xl flex items-center hover:text-transparent bg-white bg-clip-text hover:bg-gradient-to-r focus:text-transparent focus:bg-gradient-to-r from-fuchsia-400 from-10% to-pink-200 to-100%" href="https://orbitune.pkk.in.eu.org">
             <TiWeatherCloudy className="text-fuchsia-400" />
             <p className="p-1">Orbitune</p>
@@ -41,6 +34,14 @@ export default function Home() {
           <a className="p-2 m-2 text-xl flex items-center hover:text-transparent bg-white bg-clip-text hover:bg-gradient-to-r focus:text-transparent focus:bg-gradient-to-r from-red-400 from-10% to-emerald-600 to-100%" href="https://minesweeper.pkk.in.eu.org">
             <PiBombBold className="text-red-400" />
             <p className="p-1">Minesweeper</p>
+          </a>
+          <a className="p-2 m-2 text-xl flex items-center text-gray-400" href="/yt_api">
+            <MdOutlineFileDownload className="text-gray-400" />
+            <p className="p-1">YT Downloader</p>
+          </a>
+          <a className="p-2 m-2 text-xl flex items-center text-gray-400" href="/yt_api">
+            <TiWeatherCloudy className="text-gray-400" />
+            <p className="p-1">Notify</p>
           </a>
         </div>
       </div>
