@@ -1,7 +1,7 @@
 import { TiWeatherCloudy } from "react-icons/ti";
 import { HiOutlineScissors } from "react-icons/hi";
-import { MdOutlineFileDownload, MdOutlineQrCode2 } from "react-icons/md";
-import { PiBombBold } from "react-icons/pi";
+import { MdOutlineFileDownload, MdOutlineQrCode2, MdMusicNote } from "react-icons/md";
+import { PiBombBold, PiMusicNotesFill } from "react-icons/pi";
 
 export default function Home() {
   return (
@@ -18,7 +18,7 @@ export default function Home() {
             <HiOutlineScissors className="text-sky-400" />
             <p className="p-1">URL Shortner</p>
           </a>
-          
+
           <a className="p-2 m-2 text-xl flex items-center hover:text-transparent bg-white bg-clip-text hover:bg-gradient-to-r focus:text-transparent focus:bg-gradient-to-r from-fuchsia-400 from-10% to-pink-200 to-100%" href="https://orbitune.pkk.in.eu.org">
             <TiWeatherCloudy className="text-fuchsia-400" />
             <p className="p-1">Orbitune</p>
@@ -40,7 +40,7 @@ export default function Home() {
             <p className="p-1">YT Downloader</p>
           </a>
           <a className="p-2 m-2 text-xl flex items-center text-gray-400" href="/yt_api">
-            <TiWeatherCloudy className="text-gray-400" />
+            <PiMusicNotesFill className="text-gray-400" />
             <p className="p-1">Notify</p>
           </a>
         </div>
