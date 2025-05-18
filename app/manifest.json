@@ -1,7 +1,10 @@
 {
     "name": "pkk",
     "theme_color": "#000000",
+    "start_url": "https://pkk.in.eu.org",
+    "display": "standalone",
     "background_color": "#000000",
+    "lang":"en",
     "short_name": "pkk",
     "description": "pkk tools",
     "categories": [
@@ -10,6 +13,10 @@
         "utilities",
         "weather"
     ],
+    "edge_side_panel": {
+        "preferred_width": 400
+    },
+    "dir":"ltr",
     "shortcuts": [
         {
             "name": "Minesweeper",
