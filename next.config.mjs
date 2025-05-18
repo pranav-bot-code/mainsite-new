@@ -5,7 +5,8 @@ import nextPwa from 'next-pwa'
 const nextConfig = {};
 
 const withPWA = nextPwa({
-  dest: 'public'
+  dest: 'public',
+  sw: 'sw.js'
 })
 
 export default withPWA({
