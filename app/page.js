@@ -20,7 +20,7 @@ export default function Home() {
           </a>
 
           <a className="p-2 m-2 text-xl flex items-center hover:text-transparent bg-white bg-clip-text hover:bg-gradient-to-r focus:text-transparent focus:bg-gradient-to-r from-fuchsia-400 from-10% to-pink-200 to-100%" href="https://orbitune.pkk.in.eu.org">
-            <TiWeatherCloudy className="text-fuchsia-400" />
+            <PiMusicNotesFill className="text-fuchsia-400" />
             <p className="p-1">Orbitune</p>
           </a>
           <a className="p-2 m-2 text-xl flex items-center hover:text-transparent bg-white bg-clip-text hover:bg-gradient-to-r focus:text-transparent focus:bg-gradient-to-r from-sky-400 from-10% to-purple-600 to-100%" href="https://addons.mozilla.org/en-GB/firefox/addon/temp-url-shortener/">
